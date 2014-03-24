@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
 print set(str(65734))
+for i in xrange(len(set(str(65734)))):
+	
+	
 n = 1
 while 1:
 	twee = 2*n
@@ -11,5 +14,4 @@ while 1:
 	if set(str(n)) == set(str(twee)) == set(str(drie)) == set(str(vier)) == set(str(vijf)) == set(str(zes)):
 		print n
 		break
-	else:
-		n += 1
+	n += 1
