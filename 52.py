@@ -11,5 +11,4 @@ while 1:
 	if set(str(n)) == set(str(twee)) == set(str(drie)) == set(str(vier)) == set(str(vijf)) == set(str(zes)):
 		print n
 		break
-	else:
-		n += 1
+	n += 1
