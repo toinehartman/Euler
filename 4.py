@@ -11,7 +11,3 @@ while n < 1000:
 				largest = result
 				print largest,
 	n += 1
-# 		print i
-# while 1:
-#  	n = raw_input('>> ');
-#  	print str(isPalindrome(n));

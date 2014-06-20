@@ -1,13 +1,10 @@
 #!/usr/bin/env python
-
 from Functions import *
-from itertools import *
 
-print 'Lijst primes maken'
-primes = [x for x in primesix(1000)]
-for a in primes:
-	for b in primes:
-		for c in primes:
-			for d in primes:
-				if all(isPrime(int(''.join(str(v) for v in p) for p in combinations([a, b, c, d], 2))):
-					print a, b, c, d
+primes = [3, 3, 3, 3]
+for i in primesix(1000):
+	for j in primesix(1000):
+		for k in primesix(1000):
+			for l in primesix(1000):
+				if isPrime(int(str(i) + str(j))) and isPrime(int(str(j) + str(i))) and isPrime(int(str(i) + str(k))) and isPrime(int(str(k) + str(i))) and isPrime(int(str(i) + str(l))) and isPrime(int(str(l) + str(i))) and isPrime(int(str(j) + str(k))) and isPrime(int(str(k) + str(j))) and isPrime(int(str(j) + str(l))) and isPrime(int(str(l) + str(j))) and isPrime(int(str(k) + str(l))) and isPrime(int(str(l) + str(k))):
+					print i, j, k, l

@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
 print set(str(65734))
+for i in xrange(len(set(str(65734)))):
+	
+	
 n = 1
 while 1:
 	twee = 2*n

@@ -7,7 +7,7 @@
 
 int* pfactors(int num) {
 	bool finished = false;
-	int* f[10];
+	int f[10];
 	int c = 0, d;
 
 	for (d = 2; d <= sqrt(num) + 1; d++) {
@@ -24,10 +24,10 @@ int* pfactors(int num) {
 						c++;
 						f[c - 1] = d;
 				}
-				else break
+				else break;
 			}
 		}
-		else break
+		else break;
 	}
 	return f;
 }

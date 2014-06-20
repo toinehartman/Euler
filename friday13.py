@@ -69,4 +69,4 @@ while y <= lim:
 		count += 1
 		if count > max_f:
 			max_f = count
-		# print '{3}: {0:0d}-{1:0d}-{2:0d}'.format(d, m, y, count)
+		print '{3}: {0:0d}-{1:0d}-{2:0d}'.format(d, m, y, count)
